@@ -20,7 +20,7 @@ export default function Proposal() {
                 SERVICE PROVIDED
               </h1>
               <h3 className="text-2xl text-center text-tmbl-drk xl:text-2xl sm:text-xl lg:text-left ">
-              Laundry equipment and service provided through exclusive possession of all common laundry room(s) located on the real property and improvements of the units located at <b>10424 Down Patrick Ln, Great Falls, VA 22066.</b> For this property we propose <b>1 ADA Front Load Washer and 1 ADA Front Load Electric Dryer</b> utilizing Tumble’s proprietary connected system. These machines utilize cashless payment systems except for those machines negotiated with the owner to be coin-driven.
+              Laundry equipment and service provided through exclusive possession of all common laundry room(s) located on the real property and improvements of the units located at <b>2355 Meadow Way, Santa Rosa, CA 95404.</b> For this property we propose <b>10 Washers and 10 Gas Dryers</b> utilizing Tumble’s proprietary connected system. These machines utilize cashless payment systems except for those machines negotiated with the owner to be coin-driven.
               </h3>
             </div>
             {/* 1 span ended */}
@@ -134,7 +134,7 @@ export default function Proposal() {
             <h3 className="mt-4 text-lg text-center text-tmbl-drk xl:text-2xl sm:text-xl lg:text-left ">
               Tumble has determined the average turns per day (TPD) of common
               laundry rooms to be 2 TPD per machine. <b>The proposed price per wash
-              is $20,075. The proposed price per dry is $20,000.</b> These prices are
+              is $3.00. The proposed price per 45 minute dry is $2.00.</b> These prices are
               subject to change, and Tumble will reserve the right to change
               prices as appropriate.{' '}
             </h3>

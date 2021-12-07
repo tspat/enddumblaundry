@@ -23,13 +23,20 @@ const NavbarTwoColumns = (props: INavbarProps) => (
 
     <style jsx>
       {`
-        .navbar :global(li:not(:first-child)) {
-          @apply mt-0;
+        .navbar :global(li:first-child) {
+          @apply mr-5;
+          @apply mt-2;
           @apply pt-2;
         }
 
-        .navbar :global(li:not(:last-child)) {
+        .navbar :global(li:not(:first-child:last-child)) {
           @apply mr-5;
+          @apply pt-0;
+        }
+
+        .navbar :global(li:last-child) {
+          @apply mt-0;
+          @apply pt-0;
         }
       `}
     </style>

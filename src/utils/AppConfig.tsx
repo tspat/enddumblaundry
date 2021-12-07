@@ -1,5 +1,5 @@
 export const AppConfig = {
-  site_name: 'Partnership with Hivers & Strivers',
+  site_name: 'Partnership with FPI Management',
   title: 'Tumble Partnership.',
   description: 'Our Proposal To you',
   locale: 'en',
