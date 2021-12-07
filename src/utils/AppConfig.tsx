@@ -1,0 +1,7 @@
+export const AppConfig = {
+  site_name: 'Partnership with Structure Properties',
+  title: 'Tumble Partnership.',
+  description: 'Our Proposal To you',
+  locale: 'en',
+  owner: 'Clarified Inc. DBA Tumble.',
+};
