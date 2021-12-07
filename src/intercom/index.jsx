@@ -27,6 +27,7 @@ export const IntercomChat = () => {
         <noscript>
           <meta httpEquiv="refresh" content="0" />
         </noscript>
+        <Script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/9146160.js"></Script>
         </div>
   </button>;
 };
