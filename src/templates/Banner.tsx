@@ -6,7 +6,7 @@ import { Section } from '../layout/Section';
 const Banner = () => (
   <Section>
     <CTABanner
-      title=""
+      title="Have Questions? Chat With Us!"
       subtitle=""
       button={
         <Link href="https://tumble.to">
