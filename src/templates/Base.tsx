@@ -15,7 +15,7 @@ import Smartcenter from './Smartcenter';
 // import Tumble from './Tumble';
 import Washgallery from './Washgallery';
 
-const INTERCOM_APP_ID = 't';
+const INTERCOM_APP_ID = 'bb5p5u7t';
 
 const Base = () => (
   <IntercomProvider appId={INTERCOM_APP_ID} autoBoot>
