@@ -20,7 +20,7 @@ export default function Proposal() {
                 SERVICE PROVIDED
               </h1>
               <h3 className="text-2xl text-center text-tmbl-drk xl:text-2xl sm:text-xl lg:text-left ">
-              Laundry equipment and service provided through exclusive possession of all common laundry room(s) located on the real property and improvements of the units located at <b>2355 Meadow Way, Santa Rosa, CA 95404.</b> For this property we propose <b>10 Washers and 10 Gas Dryers</b> utilizing Tumble’s proprietary connected system. These machines utilize cashless payment systems except for those machines negotiated with the owner to be coin-driven.
+              Laundry equipment and service provided through exclusive possession of all common laundry room(s) located on the real property and improvements of the units located at <b>713 Trancas Sreet, Napa, CA 94558.</b> For this property we propose <b>five (5) ADA front load washers and three (3) stack gas dryers (total 6 dryers)</b> utilizing Tumble’s proprietary connected system. These machines utilize cashless payment systems except for those machines negotiated with the owner to be coin-driven.
               </h3>
             </div>
             {/* 1 span ended */}
