@@ -1,4 +1,3 @@
 node_modules
+src
 out
-src/templates/Banner.tsx
-src/intercom/index.jsx
