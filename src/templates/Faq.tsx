@@ -19,7 +19,7 @@ export default function Faq() {
                 We use standard pricing for our revenue share and subscription
                 models. For the pricing of the washers and dryers, we adjust
                 below the going price at local laundromats. If you would like to
-                change the pricer per load, we are happy to discuss options.{' '}
+                change the price per load, we are happy to discuss options.{' '}
               </h3>
             </div>
             {/* span 1 ended */}
