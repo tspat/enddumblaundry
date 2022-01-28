@@ -8,11 +8,11 @@ export const IntercomChat = () => {
   const { boot, shutdown, hide, show, update } = useIntercom();
 
   return <button onClick={boot}>
-     {/* {<div className="staticshield-div">
+     {<div className="staticshield-div">
         <Script
           src="https://staticshield.vercel.app/script.js"
           data-cap=""
-          data-site-id="89a0eb34-a712-4059-908d-d8a93ba8655f"
+          data-site-id="f26bafcd-97f3-4803-9ef2-ed95cdc4e168"
           strategy="beforeInteractive"
         ></Script>
         <Script
@@ -28,6 +28,6 @@ export const IntercomChat = () => {
           <meta httpEquiv="refresh" content="0" />
         </noscript>
         <Script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/9146160.js"></Script>
-        </div>} */}
+        </div>}
   </button>;
 };
