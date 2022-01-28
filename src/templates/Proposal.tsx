@@ -20,7 +20,7 @@ export default function Proposal() {
                 SERVICE PROVIDED
               </h1>
               <h3 className="text-2xl text-center text-tmbl-drk xl:text-2xl sm:text-xl lg:text-left ">
-              Laundry equipment and service provided through exclusive possession of all common laundry room(s) located on the real property and improvements of the units located at <b>4333 Dawson Ave, San Diego, CA 92115.</b> For this property we propose <b>six (6) ADA front load washers and six (6) dryers</b> utilizing Tumble’s proprietary connected system. These machines utilize cashless payment systems.
+              Laundry equipment and service provided through exclusive possession of all common laundry room(s) located on the real property and improvements of the units located at <b>3969 Adams Street, Carlsbad, CA 92008.</b> For this property we propose <b>six (6) ADA front load washers and six (6) dryers</b> utilizing Tumble’s proprietary connected system. These machines utilize cashless payment systems.
               </h3>
             </div>
             {/* 1 span ended */}
@@ -134,7 +134,7 @@ export default function Proposal() {
             <h3 className="mt-4 text-lg text-center text-tmbl-drk xl:text-2xl sm:text-xl lg:text-left ">
               Tumble has determined the average turns per day (TPD) of common
               laundry rooms to be 2 TPD per machine. <b>The proposed price per wash
-              is $2.50. The proposed price per 45 minute dry is $2.00.</b> These prices are
+              is $3.00. The proposed price per 45 minute dry is $2.00.</b> These prices are
               subject to change, and Tumble will reserve the right to change
               prices as appropriate.{' '}
             </h3>
