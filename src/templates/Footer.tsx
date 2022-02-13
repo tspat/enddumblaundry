@@ -86,7 +86,7 @@ const Footer = () => (
           </Link>
         </li>
         <li>
-          <Link href="https://f.hubspotusercontent10.net/hubfs/9146160/San%20Francisco%20Rental%20Market%20%20_%20%20Overview.pdf?utm_referrer=https%3A%2F%2Ftumble.to%2F">
+          <Link href="https://page.tumble.to/hubfs/Welcome%20to%20Smart%20Laundry.pdf">
             <a>Brochure</a>
           </Link>
         </li>
