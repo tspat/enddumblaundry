@@ -9,6 +9,7 @@ import { Banner } from './Banner';
 import Faq from './Faq';
 import { Footer } from './Footer';
 import { Hero } from './Hero';
+import { NMHC } from './NMHC';
 import MobileGallery from './MobileGallery';
 import Proposal from './Proposal';
 import Smartcenter from './Smartcenter';
@@ -26,6 +27,7 @@ const Base = () => (
       <MobileGallery />
       <Washgallery />
       <Smartcenter />
+      <NMHC />
       <Faq />
       <Proposal />
       {/* <Tumble /> */}

@@ -20,7 +20,7 @@ export default function Proposal() {
                 SERVICE PROVIDED
               </h1>
               <h3 className="text-2xl text-center text-tmbl-drk xl:text-2xl sm:text-xl lg:text-left ">
-              Laundry equipment and service provided through exclusive possession of all common laundry room(s) located on the real property and improvements of the units located at <b>3969 Adams Street, Carlsbad, CA 92008.</b> For this property we propose <b>six (6) ADA front load washers and six (6) dryers</b> utilizing Tumble’s proprietary connected system. These machines utilize cashless payment systems.
+              Laundry equipment and service provided through exclusive possession of all common laundry room(s) located on the real property and improvements of the units located at <b>The Pointe at 2316, 2316 Paseo De Laura, Oceanside, CA 92056.</b> With signing of a 5 year or more term, Tumble will include it's upcoming resident insights platform included in this package.
               </h3>
             </div>
             {/* 1 span ended */}
@@ -133,10 +133,9 @@ export default function Proposal() {
             </h3>
             <h3 className="mt-4 text-lg text-center text-tmbl-drk xl:text-2xl sm:text-xl lg:text-left ">
               Tumble has determined the average turns per day (TPD) of common
-              laundry rooms to be 2 TPD per machine. <b>The proposed price per wash
-              is $3.00. The proposed price per 45 minute dry is $2.00.</b> These prices are
+              laundry rooms to be 2 TPD per machine. Vend prices are
               subject to change, and Tumble will reserve the right to change
-              prices as appropriate.{' '}
+              prices as appropriate with the market.{' '}
             </h3>
             <h3 className="mt-4 text-lg text-center text-tmbl-drk xl:text-2xl sm:text-xl lg:text-left ">
             The property management and/or building owner will be provided a statement of usage on the 1st of every month for the previous month’s usage, and paid no later than the 15th of the same month for the balance of that statement.
