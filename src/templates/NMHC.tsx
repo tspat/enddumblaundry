@@ -8,13 +8,13 @@ import { Background } from '../background/Background';
 import { Section } from '../layout/Section';
 
 const NMHC = () => (
-  <Background color="#FFFFFF">
+  <Background color="#4593AD">
 
     <div>
       <img src="/assets/images/stats.png" alt="" width="100%" />
       <div className="w-10/12 ml-auto mr-auto">
         <div className="grid grid-cols-2 gap-16">
-          <div className="col-span-1">
+          <div className="col-span-full sm:col-span-1">
             <img
               src="/assets/images/NMHC.png"
               width="100%"
@@ -22,7 +22,7 @@ const NMHC = () => (
               className=" lg:-mt-16 md:mt-0 sm:-mt-1"
             />
           </div>
-          <div className="col-span-1 sm:-mt-10 md:mt-18 lg:mt-10 xl:mt-20">
+          <div className="col-span-full sm:col-span-1 sm:-mt-10 md:mt-18 lg:mt-10 xl:mt-20">
             <ReactPlayer
               url={'https://www.youtube.com/watch?v=Cf1gnl_-FGw'}
               volume={0.5}

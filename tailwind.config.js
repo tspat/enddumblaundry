@@ -24,6 +24,7 @@ module.exports = {
           lght: '#4593AD',
           drk: '#383C6A',
           third: '#F3FBFE',
+          from: '#81C6DC',
         },
         primary: {
           100: '#E6F6FE',

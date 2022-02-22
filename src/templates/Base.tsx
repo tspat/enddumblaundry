@@ -9,6 +9,7 @@ import { Banner } from './Banner';
 import Faq from './Faq';
 import { Footer } from './Footer';
 import { Hero } from './Hero';
+import { Header } from './Header'
 import { NMHC } from './NMHC';
 import MobileGallery from './MobileGallery';
 import Proposal from './Proposal';
@@ -16,14 +17,15 @@ import Smartcenter from './Smartcenter';
 // import Tumble from './Tumble';
 import Washgallery from './Washgallery';
 
-const INTERCOM_APP_ID = 'bb5p5u7t';
+//const INTERCOM_APP_ID = 'bb5p5u7t';
 
 const Base = () => (
-  <IntercomProvider appId={INTERCOM_APP_ID} autoBoot>
+  <IntercomProvider appId={'?'} autoBoot>
     <div className="antialiased text-gray-600">
       <IntercomChat />
       <Meta title={AppConfig.title} description={AppConfig.description} />
       <Hero />
+      <Header />
       <MobileGallery />
       <Washgallery />
       <Smartcenter />
