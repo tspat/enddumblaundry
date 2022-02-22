@@ -1,10 +1,19 @@
 // import Link from 'next/link';
 // import { IntercomProvider, useIntercom } from 'react-use-intercom';
-
+import Lottie from 'react-lottie';
+import animationData from '../lotties/whitelogo.json';
 import { Background } from '../background/Background';
 // import { Button } from '../button/Button';
 // import { HeroOneButton } from '../hero/HeroOneButton';
 
+const defaultOptions = {
+  loop: true,
+  autoplay: true,
+  animationData: animationData,
+  rendererSettings: {
+    preserveAspectRatio: "xMinYMin slice"
+  }
+};
 
 const Hero = () => (
   <Background color="bg-tmbl-lght">
@@ -13,7 +22,11 @@ const Hero = () => (
           <div className="col-span-1">
           </div>
           <div className="col-span-2 py-6">
-            <img src="assets/images/tumblelogo.png" alt="" width="175px" />
+            <div className="object-contain w-auto h-auto">
+                <Lottie 
+                  options={defaultOptions}
+                />
+            </div>
           </div>
           <div className="col-span-4">
           </div>
