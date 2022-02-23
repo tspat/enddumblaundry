@@ -11,7 +11,7 @@ import { Footer } from './Footer';
 import { Hero } from './Hero';
 import { Header } from './Header'
 import { NMHC } from './NMHC';
-import MobileGallery from './MobileGallery';
+import Email from './Email'
 import Proposal from './Proposal';
 import Smartcenter from './Smartcenter';
 // import Tumble from './Tumble';
@@ -26,7 +26,7 @@ const Base = () => (
       <Meta title={AppConfig.title} description={AppConfig.description} />
       <Hero />
       <Header />
-      <MobileGallery />
+      <Email />
       <Washgallery />
       <Smartcenter />
       <NMHC />
