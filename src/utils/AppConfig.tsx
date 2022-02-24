@@ -1,7 +1,7 @@
 export const AppConfig = {
-  site_name: 'Partnership with FPI Management',
-  title: 'Tumble Partnership',
-  description: 'Our Proposal To you',
+  site_name: 'Tumble',
+  title: 'Tumble Earn',
+  description: 'Tumble Earn',
   locale: 'en',
   owner: 'Clarified Inc. DBA Tumble.',
 };

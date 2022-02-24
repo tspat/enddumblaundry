@@ -1,14 +1,7 @@
 import React from 'react';
-import {useRouter} from 'next/router'
 
 
-export default function Email() {
-  const router = useRouter()
-    const [state, setState] = React.useState('');
-    const submit = () => {
-      router.push(`mailto:${state}?subject=subject&cc=bcc@example.com`)
-      router.push(`/search`)
-  }
+export default function EmailSubmit() {
   return (
     <div className="bg-white py-16 sm:py-24">
       <div className="relative sm:py-16">
@@ -62,30 +55,7 @@ export default function Email() {
                   tristique pellentesque.
                 </p>
               </div>
-              <form onSubmit={(e) => {e.preventDefault(); submit()}} className="mt-12 sm:mx-auto sm:max-w-lg sm:flex">
-                <div className="min-w-0 flex-1">
-                  <label htmlFor="email" className="sr-only">
-                    Email address
-                  </label>
-                  <input
-                    id="email"
-                    type="email"
-                    onChange={e => setState(e.target.value)}
-                    className="block w-full border border-transparent rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600"
-                    placeholder="Enter your property manager's email"
-                    required
-                  />
-                </div>
-                <div className="mt-4 sm:mt-0 sm:ml-3">
-                  <button
-                    type="submit"
-                    data-input="#id-input" 
-                    className="block w-full rounded-md border border-transparent px-5 py-3 bg-indigo-500 text-base font-medium text-white shadow hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:px-10"
-                  >
-                    EARN
-                  </button>
-                </div>
-              </form>
+              
             </div>
           </div>
         </div>
@@ -94,4 +64,4 @@ export default function Email() {
   )
 }
 
-export { Email };
+export { EmailSubmit };

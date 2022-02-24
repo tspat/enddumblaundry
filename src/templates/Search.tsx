@@ -8,10 +8,10 @@ import { AppConfig } from '../utils/AppConfig';
 // import { Banner } from './Banner';
 // import Faq from './Faq';
 import { Footer } from './Footer';
-import { Hero } from './Hero';
+//import { Hero } from './Hero';
 import { Header } from './Header'
 // import { NMHC } from './NMHC';
-import Email from './Email'
+import EmailSubmit from './EmailSubmit'
 // import Proposal from './Proposal';
 // import Smartcenter from './Smartcenter';
 // import Tumble from './Tumble';
@@ -19,19 +19,19 @@ import Washgallery from './Washgallery';
 
 //const INTERCOM_APP_ID = 'bb5p5u7t';
 
-const Base = () => (
+const Search = () => (
   <IntercomProvider appId={'?'} autoBoot>
     <div className="antialiased text-gray-600">
       <IntercomChat />
       <Meta title={AppConfig.title} description={AppConfig.description} />
-      <Hero />
+      {/* {<Hero /> */}
       <Header />
-      <Email />
+      <EmailSubmit />
       <Washgallery />
       {/* <Smartcenter />
       <NMHC />
       <Faq />
-      <Proposal />
+      <Proposal /> */}
       {/* <Tumble /> */}
       {/* <Banner /> */}
       <Footer />
@@ -39,4 +39,4 @@ const Base = () => (
   </IntercomProvider>
 );
 
-export { Base };
+export { Search };

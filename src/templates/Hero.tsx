@@ -15,7 +15,9 @@ const Hero = () => (
           </div>
           <div className="col-span-2 py-6">
             <div className="object-contain w-auto h-auto">
+              <a href='https://tumble.to/?earnlanding1'>
               <img src="assets/images/tumblelogo.png" alt="" width="175px" />
+              </a>
             </div>
           </div>
           <div className="col-span-4">
