@@ -23,8 +23,8 @@ const Header = () => (
             <img src="assets/images/Header.png" />
           </div>
         </div>
-        <img className="filter contrast-200" src="assets/images/Wave.svg" />
       </div>
+      <img className="filter contrast-200" src="assets/images/Wave.svg" />
       
   </Background>
 );
