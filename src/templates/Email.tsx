@@ -25,7 +25,6 @@ export default function Email() {
         router.push(`/search`)
         
       } else {
-        alert('Sorry, something went wrong.')
       }
     } catch(err) {
       alert(err)
@@ -51,7 +50,6 @@ export default function Email() {
           router.push(`/search`)
           
         } else {
-          alert('Sorry, something went wrong.')
         }
       } catch(err) {
         alert(err)
@@ -88,7 +86,7 @@ export default function Email() {
           </svg>
         </div>
         <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-          <div className="relative rounded-2xl px-6 py-10 bg-indigo-600 overflow-hidden shadow-xl sm:px-12 sm:py-20">
+          <div className="relative rounded-2xl px-6 py-10 bg-tmbl-lght overflow-hidden shadow-xl sm:px-12 sm:py-20">
             <div aria-hidden="true" className="absolute inset-0 -mt-72 sm:-mt-32 md:mt-0">
               <svg
                 className="absolute inset-0 h-full w-full"
@@ -98,12 +96,12 @@ export default function Email() {
                 viewBox="0 0 1463 360"
               >
                 <path
-                  className="text-indigo-500 text-opacity-40"
+                  className="text-tmbl-from text-opacity-40"
                   fill="currentColor"
                   d="M-82.673 72l1761.849 472.086-134.327 501.315-1761.85-472.086z"
                 />
                 <path
-                  className="text-indigo-700 text-opacity-40"
+                  className="text-tmbl-third text-opacity-40"
                   fill="currentColor"
                   d="M-217.088 544.086L1544.761 72l134.327 501.316-1761.849 472.086z"
                 />
@@ -114,8 +112,8 @@ export default function Email() {
                 <h2 className="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
                   Tell your landlord you want Tumble!
                 </h2>
-                <p className="mt-6 mx-auto max-w-2xl text-lg text-indigo-200">
-                  Enter your property management's email and tell them you are ready to end Dumb Laundry!
+                <p className="mt-6 mx-auto max-w-2xl text-lg text-white">
+                  Enter your property management's email and tell them you are ready to for smart laundry!
                 </p>
               </div>
               <form onSubmit={(e) => {e.preventDefault()}} className="mt-12 sm:mx-auto sm:max-w-lg sm:flex">
@@ -137,7 +135,7 @@ export default function Email() {
                     type="submit"
                     data-input="#id-input" 
                     onClick={submit}
-                    className="block w-full rounded-md border border-transparent px-5 py-3 bg-indigo-500 text-base font-medium text-white shadow hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:px-10"
+                    className="block w-full rounded-md border border-transparent px-5 py-3 bg-tmbl-drk text-base font-medium text-white shadow hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:px-10"
                   >
                     EARN
                   </button>
@@ -167,7 +165,7 @@ export default function Email() {
           </svg>
         </div>
         <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-          <div className="relative rounded-2xl px-6 py-10 bg-indigo-600 overflow-hidden shadow-xl sm:px-12 sm:py-20">
+          <div className="relative rounded-2xl px-6 py-10 bg-tmbl-lght overflow-hidden shadow-xl sm:px-12 sm:py-20">
             <div aria-hidden="true" className="absolute inset-0 -mt-72 sm:-mt-32 md:mt-0">
               <svg
                 className="absolute inset-0 h-full w-full"
@@ -177,12 +175,12 @@ export default function Email() {
                 viewBox="0 0 1463 360"
               >
                 <path
-                  className="text-indigo-500 text-opacity-40"
+                  className="text-tmbl-from text-opacity-40"
                   fill="currentColor"
                   d="M-82.673 72l1761.849 472.086-134.327 501.315-1761.85-472.086z"
                 />
                 <path
-                  className="text-indigo-700 text-opacity-40"
+                  className="text-tmbl-third text-opacity-40"
                   fill="currentColor"
                   d="M-217.088 544.086L1544.761 72l134.327 501.316-1761.849 472.086z"
                 />
@@ -191,11 +189,10 @@ export default function Email() {
             <div className="relative">
               <div className="sm:text-center">
                 <h2 className="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
-                  Get notified when we&rsquo;re launching.
+                Tell your landlord you want Tumble!
                 </h2>
-                <p className="mt-6 mx-auto max-w-2xl text-lg text-indigo-200">
-                  Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque
-                  tristique pellentesque.
+                <p className="mt-6 mx-auto max-w-2xl text-lg text-white">
+                  Enter your property management's email and we will get in touch with them about getting you Tumble.
                 </p>
               </div>
               <form onSubmit={(e) => {e.preventDefault()}} className="mt-12 sm:mx-auto sm:max-w-lg sm:flex">
@@ -217,7 +214,7 @@ export default function Email() {
                     type="submit"
                     onClick={subscribe}
                     data-input="#id-input" 
-                    className="block w-full rounded-md border border-transparent px-5 py-3 bg-indigo-500 text-base font-medium text-white shadow hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:px-10"
+                    className="block w-full rounded-md border border-transparent px-5 py-3 bg-tmbl-drk text-base font-medium text-white shadow hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:px-10"
                   >
                     EARN
                   </button>

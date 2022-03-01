@@ -24,7 +24,7 @@ const Hero = () => (
           </div>
           <div className="col-span-3">
             <div className="">
-              <button className="rounded-full font-sans font-medium text-white text-xs sm:text-s md:text-base bg-tmbl-drk p-1 lg:p-3 lg:px-10 lg:mt-4 mt-6">Sign up for waitlist</button>
+              <button className="rounded-full font-sans font-medium text-white text-xs sm:text-s md:text-base bg-tmbl-drk px-4 py-1 lg:p-3 lg:px-10 lg:mt-4 mt-6">Sign up for waitlist</button>
             </div>
           </div>
         </div>
