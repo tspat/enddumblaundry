@@ -64,7 +64,7 @@ export default function Washgallery() {
                       className="relative mx-auto"
                       width={490}
                       src="/assets/images/app.png"
-                      alt=""
+                      alt="Tumble Mobile Application"
                     />
                   </div>
                 </div>
@@ -127,8 +127,8 @@ export default function Washgallery() {
                       <img
                         className="relative mx-auto"
                         width="auto"
-                        src="assets/images/brands.png"
-                        alt=""
+                        src="/assets/images/brands.png"
+                        alt="Brands you Love"
                       />
                     </div>
                   </div>
@@ -169,7 +169,7 @@ export default function Washgallery() {
                       className="relative mx-auto"
                       width={490}
                       src="/assets/images/passiveearn.png"
-                      alt=""
+                      alt="Passively Earn"
                     />
                   </div>
                 </div>

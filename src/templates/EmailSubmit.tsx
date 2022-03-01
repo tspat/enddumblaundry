@@ -56,10 +56,10 @@ export default function EmailSubmit() {
             <div className="relative">
               <div className="sm:text-center">
                 <h2 className="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
-                  Tell your landlord you want Tumble!
+                  Thank you for submitting! 
                 </h2>
                 <p className="mt-6 mx-auto max-w-2xl text-lg text-indigo-200">
-                  Enter your property management's email and tell them you are ready to end Dumb Laundry!
+                  Property managers listen to you, the residents! The more you let them know you want Tumble the faster it will happen
                 </p>
               </div>
             </div>
@@ -110,11 +110,10 @@ export default function EmailSubmit() {
             <div className="relative">
               <div className="sm:text-center">
                 <h2 className="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
-                  Get notified when we&rsquo;re launching.
+                Thank you for submitting! 
                 </h2>
                 <p className="mt-6 mx-auto max-w-2xl text-lg text-indigo-200">
-                  Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque
-                  tristique pellentesque.
+                Property managers listen to you, the residents! The more you let them know you want Tumble the faster it will happen
                 </p>
               </div>
             </div>
