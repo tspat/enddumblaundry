@@ -1,4 +1,4 @@
-import { Search } from '../templates/Search';
+import { Search } from '../../templates/Search';
 
 const SearchPage = () => <Search />;
 

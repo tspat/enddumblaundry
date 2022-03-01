@@ -9,7 +9,7 @@ import { AppConfig } from '../utils/AppConfig';
 // import Faq from './Faq';
 import { Footer } from './Footer';
 // import { Hero } from './Hero';
-import { Header } from './Header'
+// import { Header } from './Header'
 // import { NMHC } from './NMHC';
 import EmailSubmit from './EmailSubmit'
 // import Proposal from './Proposal';
@@ -25,7 +25,7 @@ const Search = () => (
       <IntercomChat />
       <Meta title={AppConfig.title} description={AppConfig.description} />
       {/* <Hero /> */}
-      <Header />
+      {/* <Header /> */}
       <EmailSubmit />
       <Washgallery />
       {/* <Smartcenter />

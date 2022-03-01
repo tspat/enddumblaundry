@@ -33,9 +33,30 @@ export default function Email() {
   }
 
    
-    const submit = () => {
-      router.push(`mailto:${state}?subject=subject&cc=bcc@example.com`)
-      router.push(`/search`)
+    const submit = async (e: { preventDefault: () => void; }) => {
+      e.preventDefault()
+      try {
+        const res = await fetch('./api/subscribe', {
+          method: 'post',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            emailAddress: state
+          })
+        })
+        
+        if (res.status === 200) {
+          router.push(`mailto:${state}?subject=subject&cc=bcc@example.com`)
+          router.push(`/search`)
+          
+        } else {
+          alert('Sorry, something went wrong.')
+        }
+      } catch(err) {
+        alert(err)
+      }
+      
   }
   return (
     <div className="bg-white pt-24 lg:py-16 sm:py-24">
@@ -97,7 +118,7 @@ export default function Email() {
                   Enter your property management's email and tell them you are ready to end Dumb Laundry!
                 </p>
               </div>
-              <form onSubmit={(e) => {e.preventDefault(); submit()}} className="mt-12 sm:mx-auto sm:max-w-lg sm:flex">
+              <form onSubmit={(e) => {e.preventDefault()}} className="mt-12 sm:mx-auto sm:max-w-lg sm:flex">
                 <div className="min-w-0 flex-1">
                   <label htmlFor="email" className="sr-only">
                     Email address
@@ -115,6 +136,7 @@ export default function Email() {
                   <button
                     type="submit"
                     data-input="#id-input" 
+                    onClick={submit}
                     className="block w-full rounded-md border border-transparent px-5 py-3 bg-indigo-500 text-base font-medium text-white shadow hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:px-10"
                   >
                     EARN
