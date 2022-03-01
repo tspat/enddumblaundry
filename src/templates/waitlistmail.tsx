@@ -86,7 +86,7 @@ export default function Waitlistmail() {
                 Already have Tumble or want to join the waitlist?
                 </h2>
                 <p className="mt-6 mx-auto max-w-2xl text-lg text-white">
-                  Enter your name and email to claim your place in line.
+                  Enter your email to claim your place in line.
                 </p>
               </div>
               <form onSubmit={(e) => {e.preventDefault()}} className="mt-12 sm:mx-auto sm:max-w-lg sm:flex md:grid">
