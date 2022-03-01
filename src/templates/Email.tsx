@@ -11,6 +11,14 @@ export default function Email() {
   }
   return (
     <div className="bg-white pt-24 lg:py-16 sm:py-24">
+              <div className="relative mb-20 mx-10 md:hidden ">
+                <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                  Earn laundry credits
+                </h2>
+                <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
+                  Shop your favorite brands, and automatically receive laundry credits.
+                </p>
+              </div>
       <div className="relative sm:py-16">
         <div aria-hidden="true" className="hidden sm:block">
           {/* <div className="absolute inset-y-0 left-0 w-1/2 bg-gray-50 rounded-r-3xl" /> */}
