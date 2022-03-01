@@ -113,7 +113,7 @@ export default function Email() {
                   Tell your landlord you want Tumble!
                 </h2>
                 <p className="mt-6 mx-auto max-w-2xl text-lg text-white">
-                  Enter your property management's email and tell them you are ready to for smart laundry!
+                  Enter your property management's email and tell them you are ready for smart laundry!
                 </p>
               </div>
               <form onSubmit={(e) => {e.preventDefault()}} className="mt-12 sm:mx-auto sm:max-w-lg sm:flex">
