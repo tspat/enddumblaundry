@@ -8,7 +8,7 @@ import { Background } from '../background/Background';
 
 
 const Hero = () => (
-  <Background color="bg-tmbl-lght">
+  <Background color="bg-gradient-to-r from-tmbl-from to-tmbl-lght object-contain">
       <div className="w-full ml-auto mr-auto">
         <div className="grid grid-cols-10 gap-2">
           <div className="col-span-1">
