@@ -19,9 +19,9 @@ export default function Waitlistmail() {
       })
       
       if (res.status === 200) {
-        alert('yay')
+        alert(`You've been added to the waitlist!`)
       } else {
-        alert('nay')
+        alert('Something went wrong, please try again')
       }
     } catch(err) {
       alert(err)
