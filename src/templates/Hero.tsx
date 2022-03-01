@@ -1,4 +1,4 @@
-// import Link from 'next/link';
+import Link from 'next/link';
 // import { IntercomProvider, useIntercom } from 'react-use-intercom';
 
 import { Background } from '../background/Background';
@@ -23,9 +23,9 @@ const Hero = () => (
           <div className="col-span-4">
           </div>
           <div className="col-span-3">
-            <div className="">
-              <button className="rounded-full font-sans font-medium text-white text-xs sm:text-s md:text-base bg-tmbl-drk px-4 py-1 lg:p-3 lg:px-10 lg:mt-4 mt-6">Sign up for waitlist</button>
-            </div>
+            <Link href="/waitlist">
+              <button className="rounded-full font-sans font-medium text-white text-xs sm:text-s md:text-base bg-tmbl-drk px-4 py-1 lg:p-3 lg:px-10 lg:mt-4 mt-6" >Sign up for waitlist</button>
+            </Link>
           </div>
         </div>
       </div>
