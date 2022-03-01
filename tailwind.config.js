@@ -4,7 +4,7 @@ module.exports = {
   darkMode: false,
   theme: {
     fontSize: {
-      xs: '0.75rem',
+      xs: '0.55rem',
       sm: '0.875rem',
       base: '1rem',
       lg: '1.125rem',

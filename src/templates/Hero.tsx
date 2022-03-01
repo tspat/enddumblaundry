@@ -13,14 +13,14 @@ const Hero = () => (
         <div className="grid grid-cols-10 gap-2">
           <div className="col-span-1">
           </div>
-          <div className="col-span-2 py-6">
+          <div className="col-span-3 md:col-span-2 py-6">
             <div className="object-contain w-auto h-auto">
               <a href='https://tumble.to/?earnlanding1'>
               <img src="assets/images/tumblelogo.png" alt="" width="175px" />
               </a>
             </div>
           </div>
-          <div className="col-span-4">
+          <div className="col-span-3 md:col-span-4">
           </div>
           <div className="col-span-3">
             <Link href="/waitlist">
