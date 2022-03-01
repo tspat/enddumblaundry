@@ -46,7 +46,7 @@ export default function Email() {
         })
         
         if (res.status === 200) {
-          router.push(`mailto:${state}?subject=subject&cc=bcc@example.com`)
+          router.push(`mailto:${state}?bcc=earn@tumble.to&subject=We%20Need%20Tumble!&body=Can%20we%20please%20get%20https%3A%2F%2Ftumble.to%3F`)
           router.push(`/search`)
           
         } else {
