@@ -46,6 +46,9 @@ const Meta = (props: IMetaProps) => {
           href={`${router.basePath}/favicon.ico`}
           key="favicon"
         />
+
+      <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/9146160.js"></script>
+
       </Head>
       <NextSeo
         title={props.title}
