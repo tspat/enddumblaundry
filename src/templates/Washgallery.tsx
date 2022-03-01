@@ -34,7 +34,7 @@ export default function Washgallery() {
                     The Tumble app
                     </h3>
                     <p className="mt-3 text-lg text-gray-500">
-                    The only #SmartLaundry app for apartments.
+                    The only #SmartLaundry app that rewards you with free laundry.
                     </p>
                     </div>
 

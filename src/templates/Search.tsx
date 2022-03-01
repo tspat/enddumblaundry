@@ -8,7 +8,7 @@ import { AppConfig } from '../utils/AppConfig';
 // import { Banner } from './Banner';
 // import Faq from './Faq';
 import { Footer } from './Footer';
-//import { Hero } from './Hero';
+// import { Hero } from './Hero';
 import { Header } from './Header'
 // import { NMHC } from './NMHC';
 import EmailSubmit from './EmailSubmit'
@@ -24,7 +24,7 @@ const Search = () => (
     <div className="antialiased text-gray-600">
       <IntercomChat />
       <Meta title={AppConfig.title} description={AppConfig.description} />
-      {/* {<Hero /> */}
+      {/* <Hero /> */}
       <Header />
       <EmailSubmit />
       <Washgallery />
