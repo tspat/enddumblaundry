@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 
 import { AppConfig } from '../utils/AppConfig';
+import Script from "next/script"
 
 type IMetaProps = {
   title: string;
@@ -12,10 +13,26 @@ type IMetaProps = {
 
 const Meta = (props: IMetaProps) => {
   const router = useRouter();
+  
 
   return (
     <>
       <Head>
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=G-9H56YMC62V`}
+      />
+
+      <Script id="google-analytics" strategy="lazyOnload">
+        {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-9H56YMC62V', {
+                  page_path: window.location.pathname,
+                });
+                    `}
+      </Script>
         <meta charSet="UTF-8" key="charset" />
         <meta
           name="viewport"
@@ -48,6 +65,7 @@ const Meta = (props: IMetaProps) => {
         />
 
       <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/9146160.js"></script>
+      
 
       </Head>
       <NextSeo
