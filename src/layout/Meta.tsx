@@ -17,7 +17,6 @@ const Meta = (props: IMetaProps) => {
   return (
     <>
       <Head>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-9H56YMC62V"></script>
         <meta charSet="UTF-8" key="charset" />
         <meta
           name="viewport"
@@ -48,8 +47,6 @@ const Meta = (props: IMetaProps) => {
           href={`${router.basePath}/favicon.ico`}
           key="favicon"
         />
-
-      <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/9146160.js"></script>
       
 
       </Head>
