@@ -10,6 +10,7 @@ import { AppConfig } from '../utils/AppConfig';
 import { Footer } from './Footer';
 import { Hero } from './Hero';
 import { Header } from './Header'
+import Script from "next/script"
 // import { NMHC } from './NMHC';
 import Email from './Email'
 // import Proposal from './Proposal';
@@ -27,6 +28,16 @@ const Base = () => (
       <Hero />
       <Header />
       <Email />
+      <Script >
+      {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '$G-9H56YMC62V', {
+              page_path: window.location.pathname,
+            });
+                `}
+      </Script>
       <Washgallery />
       {/* <Smartcenter />
       <NMHC />
