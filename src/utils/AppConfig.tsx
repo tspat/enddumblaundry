@@ -1,7 +1,7 @@
 export const AppConfig = {
   site_name: 'Tumble',
-  title: 'Tumble Earn',
-  description: 'Tumble Earn',
+  title: 'Stop Dumb Laundry',
+  description: 'Stop Dumb Laundry with Tumble',
   locale: 'en',
   owner: 'Clarified Inc. DBA Tumble.',
 };

@@ -34,7 +34,7 @@ export default function Washgallery() {
                     The Tumble app
                     </h3>
                     <p className="mt-3 text-lg text-gray-500">
-                    The only #SmartLaundry app where you can earn free laundry.
+                    The only #SmartLaundry app for shared laundry rooms.
                     </p>
                     </div>
 
@@ -95,7 +95,7 @@ export default function Washgallery() {
                 <div className="relative mt-12 sm:mt-16 lg:mt-24">
                   <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
                     <div className="lg:col-start-2">
-                      <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">The brands you love</h3>
+                      <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">Convenience Residents Deserve</h3>
                       <p className="mt-3 text-lg text-gray-500">
                         Whether you're catching an Uber or ordering new clothes from Amazon, you can shop the brands you love directly from the Tumble app.
                       </p>
@@ -136,10 +136,10 @@ export default function Washgallery() {
                 <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
                   <div className="relative">
                     <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-                      Passively earn
+                      WE handle everything
                     </h3>
                     <p className="mt-3 text-lg text-gray-500">
-                    Start earning laundry credits passively. For every purchase you make, you get Tumble credits. Credits can be used to pay for laundry. Simple, right?
+                    Using predictive maintenance and IoT technology we keep the machines up and running with the lowest downtime in the business.
                     </p>
                     </div>
 

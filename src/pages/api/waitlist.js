@@ -2,7 +2,7 @@ export default async (req, res) => {
   const mail = req.body.address
 
   try {
-    const response = await fetch('https://api.hsforms.com/submissions/v3/integration/submit/9146160/a35d8672-030a-485c-af83-0f2d22e215b0', {
+    const response = await fetch('https://api.hsforms.com/submissions/v3/integration/submit/9146160/28a96abf-f0db-4d59-b7ee-b3c9901f96d9', {
       method: 'post',
       headers: {
         'Content-Type': 'application/json',
@@ -16,8 +16,8 @@ export default async (req, res) => {
           }
         ],
         "context": {
-          "pageUri": "www.earnfreelaundry.com/",
-          "pageName": "Waitlist"
+          "pageUri": "www.stopdumblaundry.com/",
+          "pageName": "NAA Apartmentalize"
         }
       })
     })

@@ -1,4 +1,5 @@
 import React from 'react';
+import { analytics } from './Base';
 
 
 export default function Waitlistmail() {
@@ -19,7 +20,7 @@ export default function Waitlistmail() {
       })
       
       if (res.status === 200) {
-        alert(`You've been added to the waitlist!`)
+        alert(`We will be in touch!`)
       } else {
         alert('Something went wrong, please try again')
       }
@@ -30,12 +31,12 @@ export default function Waitlistmail() {
 
   return (
     <div className="bg-white pt-24 lg:py-16 sm:py-24">
-              <div className="relative mb-20 mx-10 md:hidden ">
+              <div className="relative mb-20 mx-10 ">
                 <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                  Earn laundry credits
+                Have a drink with us in San Diego!
                 </h2>
                 <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
-                  Shop your favorite brands, and automatically receive laundry credits.
+                  This is an invite only event for NAA Attendees on Friday June 24th! Join us for happy hour at 
                 </p>
               </div>
       
@@ -83,10 +84,10 @@ export default function Waitlistmail() {
             <div className="relative">
               <div className="sm:text-center">
                 <h2 className="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
-                Already have Tumble or want to join the waitlist?
+                Smart Laundry Happy Hour
                 </h2>
                 <p className="mt-6 mx-auto max-w-2xl text-lg text-white">
-                  Enter your email to claim your place in line.
+                  Enter your email for your invite!
                 </p>
               </div>
               <form onSubmit={(e) => {e.preventDefault()}} className="mt-12 sm:mx-auto sm:max-w-lg sm:flex md:grid">

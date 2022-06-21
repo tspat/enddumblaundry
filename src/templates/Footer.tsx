@@ -72,7 +72,7 @@ const Footer = () => (
       >
         <li>
           <Link href="https://tumble.to">
-            <a>Home</a>
+            <a>Learn More!</a>
           </Link>
         </li>
         <li>
@@ -86,7 +86,7 @@ const Footer = () => (
           </Link>
         </li>
         <li>
-          <Link href="https://page.tumble.to/hubfs/Welcome%20to%20Smart%20Laundry.pdf">
+          <Link href="https://page.tumble.to/hubfs/Tumble%20-%20Welcome%20to%20Smart%20Laundry.pdf">
             <a>Brochure</a>
           </Link>
         </li>

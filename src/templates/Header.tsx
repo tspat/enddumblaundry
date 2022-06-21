@@ -13,10 +13,10 @@ const Header = () => (
         <div className="grid grid-cols-2 lg:grid-cols-2 gap-8">
           <div className="col-span-full hidden lg:block mx-5 md:col-span-1 justify-left py-5 lg:py-48 lg:mx-10">
             <h2 className="text-left justify-left text-md lg:text-3xl leading-8 font-extrabold tracking-tight text-white ">
-            Earn laundry credits <br></br><br></br>
+            Hey San Diego, it's time for Smart Laundry! <br></br><br></br>
             </h2>
             <h3 className="text-left justify-center text-sm lg:text-xl leading-8 font-extrabold tracking-tight text-white ">
-              Shop your favorite brands, and automatically receive laundry credits.
+              The only way to have a shared laundry room
             </h3>
           </div>
           <div className="col-span-full px-10 lg:col-span-1">

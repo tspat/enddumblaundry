@@ -60,10 +60,10 @@ export default function Email() {
     <div className="bg-white pt-24 lg:py-16 sm:py-24">
               <div className="relative mb-20 mx-10 md:hidden ">
                 <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                  Earn laundry credits
+                 Hey San Diego, it's time for Smart Laundry!
                 </h2>
                 <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
-                  Shop your favorite brands, and automatically receive laundry credits.
+                  Stop doing Dumb Laundry and get Smart Laundry
                 </p>
               </div>
       <div className="relative md:hidden sm:py-16">
@@ -137,7 +137,7 @@ export default function Email() {
                     onClick={submit}
                     className="block w-full rounded-md border border-transparent px-5 py-3 bg-tmbl-drk text-base font-medium text-white shadow hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:px-10"
                   >
-                    EARN
+                    Send
                   </button>
                 </div>
               </form>
@@ -216,7 +216,7 @@ export default function Email() {
                     data-input="#id-input" 
                     className="block w-full rounded-md border border-transparent px-5 py-3 bg-tmbl-drk text-base font-medium text-white shadow hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:px-10"
                   >
-                    EARN
+                    Send
                   </button>
                 </div>
               </form>

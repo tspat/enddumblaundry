@@ -19,6 +19,9 @@ import Email from './Email'
 import Washgallery from './Washgallery';
 
 //const INTERCOM_APP_ID = 'bb5p5u7t';
+import { AnalyticsBrowser } from '@segment/analytics-next'
+
+export const analytics = AnalyticsBrowser.load({ writeKey: 'WFlTsrW7TOXcQ3pToOD9F1xunHN314tx' })
 
 const Base = () => (
   <IntercomProvider appId={'?'} autoBoot>
