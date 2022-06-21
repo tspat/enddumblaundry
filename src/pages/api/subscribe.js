@@ -16,7 +16,6 @@ export default async (req, res) => {
           }
         ],
         "context": {
-          "hutk": ":hutk",
           "pageUri": "www.stopdumblaundry.com/",
           "pageName": "Stop Dumb Laundry"
         }

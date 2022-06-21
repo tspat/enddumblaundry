@@ -5,37 +5,38 @@ import {useRouter} from 'next/router'
 export default function Email() {
   const router = useRouter();
   const [state, setState] = React.useState('');
-  const [state2, setState2] = React.useState('');
+  // const [state2, setState2] = React.useState('');
     
   
-  const subscribe = async (e: { preventDefault: () => void; }) => {
-    e.preventDefault()
-    try {
-      const res = await fetch('./api/subscribe', {
-        method: 'post',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          emailAddress: state2
-        })
-      })
+  // const subscribe = async (e: { preventDefault: () => void; }) => {
+  //   e.preventDefault()
+  //   try {
+  //     const res = await fetch('./api/subscribe', {
+  //       method: 'post',
+  //       headers: {
+  //         'Content-Type': 'application/json'
+  //       },
+  //       body: JSON.stringify({
+  //         emailAddress: state2
+  //       })
+  //     })
       
-      if (res.status === 200) {
-        router.push(`/search`)
+  //     if (res.status === 200) {
+  //       router.push(`/search`)
         
-      } else {
-      }
-    } catch(err) {
-      alert(err)
-    }
-  }
+  //     } else {
+  //       alert('Something went wrong, please try again')
+  //     }
+  //   } catch(err) {
+  //     alert(err)
+  //   }
+  // }
 
    
     const submit = async (e: { preventDefault: () => void; }) => {
       e.preventDefault()
       try {
-        const res = await fetch('./api/subscribe', {
+        const res = await fetch('/api/subscribe', {
           method: 'post',
           headers: {
             'Content-Type': 'application/json'
@@ -46,10 +47,12 @@ export default function Email() {
         })
         
         if (res.status === 200) {
+          alert(`Thank you! Please send the email`)
           router.push(`mailto:${state}?bcc=earn@tumble.to&subject=We%20Need%20Tumble!&body=Can%20we%20please%20get%20https%3A%2F%2Ftumble.to%3F`)
           router.push(`/search`)
           
         } else {
+          alert('Something went wrong, please try again')
         }
       } catch(err) {
         alert(err)
@@ -203,7 +206,7 @@ export default function Email() {
                   <input
                     id="email"
                     type="email"
-                    onChange={e => setState2(e.target.value)}
+                    onChange={e => setState(e.target.value)}
                     className="block w-full border border-transparent rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600"
                     placeholder="Enter your property manager's email"
                     required
@@ -212,7 +215,7 @@ export default function Email() {
                 <div className="mt-4 sm:mt-0 sm:ml-3">
                   <button
                     type="submit"
-                    onClick={subscribe}
+                    onClick={submit}
                     data-input="#id-input" 
                     className="block w-full rounded-md border border-transparent px-5 py-3 bg-tmbl-drk text-base font-medium text-white shadow hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:px-10"
                   >

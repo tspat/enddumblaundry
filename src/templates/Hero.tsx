@@ -24,7 +24,7 @@ const Hero = () => (
           </div>
           <div className="col-span-4 justify-self-center">
             <Link href="/waitlist">
-              <button onClick={() => analytics.trackLink(document.getElementById(''), 'At NAA')} className="rounded-full font-sans font-medium text-white text-xs sm:text-s md:text-base bg-tmbl-drk px-4 py-1 lg:p-3 lg:px-10 lg:mt-4 mt-6" >At Apartmentalize? Come to our happy hour!</button>
+              <button id="button" onClick={() => analytics.trackLink(document.getElementById('button'), 'At NAA')} className="rounded-full font-sans font-medium text-white text-xs sm:text-s md:text-base bg-tmbl-drk px-4 py-1 lg:p-3 lg:px-10 lg:mt-4 mt-6" >At Apartmentalize? Come to our happy hour!</button>
             </Link>
           </div>
         </div>

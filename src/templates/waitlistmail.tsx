@@ -1,5 +1,5 @@
 import React from 'react';
-import { analytics } from './Base';
+// import { analytics } from './Base';
 
 
 export default function Waitlistmail() {
