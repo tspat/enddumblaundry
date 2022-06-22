@@ -36,7 +36,7 @@ export default function Waitlistmail() {
                 Have a drink with us in San Diego!
                 </h2>
                 <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
-                  This is an invite only event for NAA Attendees on Friday June 24th! Join us for happy hour at 
+                  This is an invite only event for NAA Attendees on Friday June 24th! Join us for happy hour between 4 PM and 6:30 PM near the convention center. Come air your dumb laundry!
                 </p>
               </div>
       
@@ -87,7 +87,7 @@ export default function Waitlistmail() {
                 Smart Laundry Happy Hour
                 </h2>
                 <p className="mt-6 mx-auto max-w-2xl text-lg text-white">
-                  Enter your email for your invite!
+                  Brought to you by Tumble. Enter your email for draaaanks and your invite!
                 </p>
               </div>
               <form onSubmit={(e) => {e.preventDefault()}} className="mt-12 sm:mx-auto sm:max-w-lg sm:flex md:grid">
