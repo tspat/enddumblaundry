@@ -16,8 +16,8 @@ export default async (req, res) => {
           }
         ],
         "context": {
-          "pageUri": "www.stopdumblaundry.com/",
-          "pageName": "NAA Apartmentalize"
+          "pageUri": "www.dumblaundry.com/",
+          "pageName": "Apartmentalize"
         }
       })
     })
