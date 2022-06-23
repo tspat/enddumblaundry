@@ -277,9 +277,9 @@ export default function Washgallery() {
                      </div>
                     </div>
 
-                    <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
+                    <div className="z-10 mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
                       <svg
-                        className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
+                        className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 hidden lg:hidden"
                         width={784}
                         height={404}
                         fill="none"
@@ -298,7 +298,7 @@ export default function Washgallery() {
                             {/* <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" /> */}
                           </pattern>
                         </defs>
-                        <rect width={784} height={404} fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
+                        {/* <rect width={784} height={404} fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" /> */}
                       </svg>
                       <Link href="https://meetings.hubspot.com/dean-wollner">
                       <img
@@ -308,15 +308,14 @@ export default function Washgallery() {
                         alt="Brands you Love"
                       />
                       </Link>
-
+                      <div className="lg:hidden lg:col-span-full lg:pl-20 lg:justify-self-right">
+                      <Link href="https://meetings.hubspot.com/dean-wollner">
+                        <button id="button" onClick={() => analytics.trackLink(document.getElementById('button'), 'Sales')} className="z-40 rounded-full font-sans font-medium text-white text-s sm:text-m md:text-base bg-tmbl-drk justify-self-center px-10 mx-16 py-1 lg:p-3 lg:mt-4 mt-6" >Meet with us!</button>
+                       </Link>
+                </div>
                     </div>
                   </div>
                 </div>
-                <div className="lg:hidden lg:col-span-full lg:pl-20 lg:justify-self-right">
-                      <Link href="https://meetings.hubspot.com/dean-wollner">
-                        <button id="button" onClick={() => analytics.trackLink(document.getElementById('button'), 'Sales')} className="rounded-full font-sans font-medium text-white text-xs sm:text-s md:text-base bg-tmbl-drk px-10 mx-16 py-1 lg:p-3 lg:mt-4 mt-6" >Meet with us!</button>
-                       </Link>
-                     </div>
               </div>
             </div>
           )
