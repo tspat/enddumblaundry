@@ -1,4 +1,3 @@
-import Link from 'next/link';
 // import { IntercomProvider, useIntercom } from 'react-use-intercom';
 import { analytics } from './Base';
 import { Background } from '../background/Background';
