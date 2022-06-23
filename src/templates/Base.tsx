@@ -41,8 +41,8 @@ const Base = () => (
                 `}
       </Script>
       <Script async defer src="//js.hs-scripts.com/9146160.js"></Script>
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-HK6EEB64WX"></Script>
-      <Script >
+      <Script id="google-tag-manager" strategy="afterInteractive" async src="https://www.googletagmanager.com/gtag/js?id=G-HK6EEB64WX"></Script>
+      <Script id="google-tag-manager" strategy="afterInteractive">
       {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
