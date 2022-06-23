@@ -1,5 +1,6 @@
 import React from 'react';
-
+import Link from 'next/link';
+import { analytics } from './Base';
 
 export default function Washgallery() {
   return (
@@ -242,6 +243,80 @@ export default function Washgallery() {
                     />
                   </div>
                 </div>
+
+                <svg
+                  className="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12"
+                  width={404}
+                  height={784}
+                  fill="none"
+                  viewBox="0 0 404 784"
+                  aria-hidden="true"
+                >
+                  <defs>
+                    <pattern
+                      id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d"
+                      x={0}
+                      y={0}
+                      width={20}
+                      height={20}
+                      patternUnits="userSpaceOnUse"
+                    >
+                      <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
+                    </pattern>
+                  </defs>
+                  {/* <rect width={404} height={784} fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" /> */}
+                </svg>
+
+                <div className="relative mt-12 sm:mt-16 lg:mt-24">
+                  <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
+                    <div className="lg:col-start-2">
+                    <div className="hidden lg:block lg:col-span-full lg:pl-20 lg:justify-self-right">
+                      <Link href="https://meetings.hubspot.com/dean-wollner">
+                        <button id="button" onClick={() => analytics.trackLink(document.getElementById('button'), 'Sales')} className="rounded-full font-sans font-medium text-white text-xs sm:text-s md:text-base bg-tmbl-drk px-4 py-1 lg:p-3 lg:px-48 lg:mt-4 mt-6" >Meet with us!</button>
+                       </Link>
+                     </div>
+                    </div>
+
+                    <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
+                      <svg
+                        className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
+                        width={784}
+                        height={404}
+                        fill="none"
+                        viewBox="0 0 784 404"
+                        aria-hidden="true"
+                      >
+                        <defs>
+                          <pattern
+                            id="e80155a9-dfde-425a-b5ea-1f6fadd20131"
+                            x={0}
+                            y={0}
+                            width={20}
+                            height={20}
+                            patternUnits="userSpaceOnUse"
+                          >
+                            {/* <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" /> */}
+                          </pattern>
+                        </defs>
+                        <rect width={784} height={404} fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
+                      </svg>
+                      <Link href="https://meetings.hubspot.com/dean-wollner">
+                      <img
+                        className="relative mx-auto"
+                        width="auto"
+                        src="/assets/images/SMD.png"
+                        alt="Brands you Love"
+                      />
+                      </Link>
+
+                    </div>
+                  </div>
+                </div>
+                <div className="lg:hidden lg:col-span-full lg:pl-20 lg:justify-self-right">
+                      <Link href="https://meetings.hubspot.com/dean-wollner">
+                        <button id="button" onClick={() => analytics.trackLink(document.getElementById('button'), 'Sales')} className="rounded-full font-sans font-medium text-white text-xs sm:text-s md:text-base bg-tmbl-drk px-10 mx-16 py-1 lg:p-3 lg:mt-4 mt-6" >Meet with us!</button>
+                       </Link>
+                     </div>
               </div>
             </div>
           )
