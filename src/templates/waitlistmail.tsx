@@ -31,14 +31,14 @@ export default function Waitlistmail() {
 
   return (
     <div className="bg-white pt-24 lg:py-16 sm:py-24">
-              <div className="relative mb-20 mx-10 ">
+              {/* <div className="relative mb-20 mx-10 ">
                 <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                 Have a drink with us in San Diego!
                 </h2>
                 <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
                   This is an invite only event for NAA Attendees on Friday June 24th! Join us for happy hour between 4 PM and 6:30 PM near the convention center. Come air your dumb laundry!
                 </p>
-              </div>
+              </div> */}
       
       <div className=" md:block relative sm:py-16">
         <div aria-hidden="true" className="hidden sm:block">
@@ -84,10 +84,10 @@ export default function Waitlistmail() {
             <div className="relative">
               <div className="sm:text-center">
                 <h2 className="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
-                Smart Laundry Happy Hour
+                Increase your NOI with Smart Laundry
                 </h2>
                 <p className="mt-6 mx-auto max-w-2xl text-lg text-white">
-                  Brought to you by Tumble. Enter your email for draaaanks and your invite!
+                  Get more info here!
                 </p>
               </div>
               <form onSubmit={(e) => {e.preventDefault()}} className="mt-12 sm:mx-auto sm:max-w-lg sm:flex md:grid">
@@ -111,7 +111,7 @@ export default function Waitlistmail() {
                     data-input="#id-input" 
                     className="block w-full rounded-md border border-transparent px-5 py-3 bg-tmbl-drk text-base font-medium text-white shadow hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:px-10"
                   >
-                    Submit
+                    Learn more!
                   </button>
                 </div>
               </form>
