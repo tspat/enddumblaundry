@@ -42,6 +42,7 @@ const Base = () => (
             twq('track','PageView');
                 `}
       </Script>
+      <Script id="term-e7e5d07437489" src="https://wec-assets.terminus.services/f05aa748-85bd-48da-94c1-7a7301929bb3/t.js"></Script>
       <Script>{`<script type="text/javascript">
         _linkedin_partner_id = "1445460";
         window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
