@@ -16,7 +16,7 @@ const Header = () => (
            It's time for Smart Laundry! <br></br><br></br>
             </h2>
             <h3 className="text-left justify-center text-sm lg:text-xl leading-8 font-extrabold tracking-tight text-white ">
-              The only way you should do a shared laundry room
+              The only way you should do a SHARED LAUNDRY ROOM
             </h3>
           </div>
           <div className="col-span-full px-10 lg:col-span-1">

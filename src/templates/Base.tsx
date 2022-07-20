@@ -20,6 +20,7 @@ import Washgallery from './Washgallery';
 //const INTERCOM_APP_ID = 'bb5p5u7t';
 import { AnalyticsBrowser } from '@segment/analytics-next'
 import Waitlistmail from './waitlistmail';
+import Example from './Example';
 
 export const analytics = AnalyticsBrowser.load({ writeKey: 'DxVayNrvlQ0oDpCGVGRKFvxWJWK2oCyz' })
 
@@ -30,6 +31,7 @@ const Base = () => (
       <Meta title={AppConfig.title} description={AppConfig.description} />
       <Hero />
       <Header />
+      <Example />
       <Script >
       {`
             !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
