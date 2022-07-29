@@ -16,7 +16,7 @@ export default async (req, res) => {
           }
         ],
         "context": {
-          "pageUri": "www.stopdumblaundry.com/",
+          "pageUri": "www.enddumblaundry.com/",
           "pageName": "Stop Dumb Laundry"
         }
       })

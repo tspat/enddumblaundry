@@ -4,16 +4,12 @@ import { analytics } from './Base';
 
 export default function Washgallery() {
   return (
-            <div className="py-6 md:py-16 bg-gray-50 overflow-hidden lg:py-24">
+            <div className="py-6 md:py-16 bg-gray-50 overflow-hidden lg:py-12">
               <div className="relative mb-20 mx-10 ">
                 <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                Still have Dumb Laundry?<br></br><br></br> After 75 years it's time to drop IT
+                Tumble Smart Laundry
                 </h2>
-                <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
-                  Don't let the other guys fool you with their apps that don't work.<br></br><br></br> THIS is SMART LAUNDRY
-                </p>
               </div>
-              <img className="relative mx-auto md:max-w-lg" src="/assets/images/ThisisTumble.png"></img>
               <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
                 <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
                     <svg
@@ -103,7 +99,7 @@ export default function Washgallery() {
                     <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
                     The Tumble app
                     </h3>
-                    <p className="mt-3 text-lg text-gray-500">
+                    <p className="mt-3 text-lg text-tmbl-drk">
                     The only #SmartLaundry app for shared laundry rooms.
                     </p>
                     </div>
@@ -166,7 +162,7 @@ export default function Washgallery() {
                   <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
                     <div className="lg:col-start-2">
                       <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">Convenience Residents Deserve</h3>
-                      <p className="mt-3 text-lg text-gray-500">
+                      <p className="mt-3 text-lg text-tmbl-drk">
                         Designed with the resident first, bring efficiency to your most used shared space.
                       </p>
                     </div>
@@ -208,7 +204,7 @@ export default function Washgallery() {
                     <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
                       WE handle everything
                     </h3>
-                    <p className="mt-3 text-lg text-gray-500">
+                    <p className="mt-3 text-lg text-tmbl-drk">
                     Using predictive maintenance and IoT technology we keep the machines up and running with the lowest downtime in the business.
                     </p>
                     </div>

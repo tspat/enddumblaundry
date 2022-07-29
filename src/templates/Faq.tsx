@@ -1,97 +1,58 @@
-import React from 'react';
+/* This example requires Tailwind CSS v2.0+ */
+import {
+  CheckIcon,
+  ClockIcon,
+  CurrencyDollarIcon,
+} from '@heroicons/react/outline'
 
-export default function Faq() {
+const features = [
+  {
+    name: 'Resident Experience',
+    description: 'An experience designed to optimize shared laundry rooms and efficiently move residents through an already unpleasant chore.',
+    icon: CheckIcon,
+  },
+  {
+    name: "Liberating your onsite team's time",
+    description: 'With real-time support residents contact Tumble directly taking the burden off of onsite teams.',
+    icon: ClockIcon,
+  },
+  {
+    name: 'Property NOI',
+    description: 'Increase property NOI by converting more prospective renters, reducing burden on onsite teams, and increasing retention.',
+    icon: CurrencyDollarIcon,
+  },
+]
+
+export default function Example() {
   return (
-    <>
-      <div className="py-8 bg-white ">
-        <h1 className="mb-4 text-2xl font-bold text-center whitespace-pre-line text-tmbl-lght lg:text-5xl sm:text-3xl">
-          FAQ
-        </h1>
-        <div className="w-10/12 ml-auto mr-auto">
-          <div className="grid grid-cols-2 gap-10 xl:gap-28">
-            {/*  span 1 started */}
-            <div className="col-span-2 lg:col-span-1 sm:col-span-2">
-              <h1 className="text-lg font-medium text-center uppercase xl:text-2xl sm:text-xl text-tmbl-lght lg:text-left ">
-                HOW DO YOU PRICE LOADS OF LAUNDRY?
-              </h1>
-              <h1 className="text-lg font-medium text-center uppercase xl:text-2xl sm:text-xl text-tmbl-lght lg:text-left "></h1>
-              <h3 className="text-base text-center text-tmbl-drk lg:text-left">
-                We use standard pricing for our revenue share and subscription
-                models. For the pricing of the washers and dryers, we adjust
-                below the going price at local laundromats. If you would like to
-                change the price per load, we are happy to discuss options.{' '}
-              </h3>
-            </div>
-            {/* span 1 ended */}
-            {/*  span 1 started */}
-            <div className="col-span-2 lg:col-span-1 sm:col-span-2">
-              <h1 className="text-lg font-medium text-center uppercase xl:text-2xl sm:text-xl text-tmbl-lght lg:text-left ">
-                After my term is up, does the contract go month-to-month?
-              </h1>
-              <h3 className="text-base text-center text-tmbl-drk lg:text-left">
-                {' '}
-                Shared laundry has been marred by predatory contract clauses
-                such as automatic renewals. At Tumble you will find no such
-                predatory clauses. All contracts go month-to-month following
-                contract term but your Account Manager will contact you as the
-                contract comes up for renewal.
-              </h3>
-            </div>
-            {/* span 1 ended */}
-            {/*  span 1 started */}
-            <div className="col-span-2 lg:col-span-1 sm:col-span-2">
-              <h1 className="text-lg font-medium text-center uppercase xl:text-2xl sm:text-xl text-tmbl-lght lg:text-left ">
-                What is Tumble’s service response time?
-              </h1>
-              <h3 className="text-base text-center text-tmbl-drk lg:text-left">
-                {' '}
-                We use artificial intelligence for predictive maintenance to get
-                ahead of problems before they cause issues for your residents.
-                Should something occur that does need an in-person repair, we’ll
-                dispatch a technician within 24 hours.{' '}
-              </h3>
-            </div>
-            {/* span 1 ended */}
-            {/*  span 1 started */}
-            <div className="col-span-2 lg:col-span-1 sm:col-span-2">
-              <h1 className="text-lg font-medium text-center uppercase xl:text-2xl sm:text-xl text-tmbl-lght lg:text-left ">
-                Why have i never heard of tumble?
-              </h1>
-              <h3 className="text-base text-center text-tmbl-drk lg:text-left">
-                Tumble was founded in 2019 as America’s first digitally native
-                multifamily shared-laundry services company. We have operated
-                mostly in San Francisco, making sure our offering is of the
-                highest quality for residents. We are now expanding rapidly
-                throughout California and beyond!
-              </h3>
-            </div>
-            {/* span 1 ended */}
-            {/*  span 1 started */}
-            <div className="col-span-2 lg:col-span-1 sm:col-span-2">
-              <h1 className="text-lg font-medium text-center uppercase xl:text-2xl sm:text-xl text-tmbl-lght lg:text-left ">
-                Do I need to have building wifi to get tumble?
-              </h1>
-              <h3 className="text-base text-center text-tmbl-drk lg:text-left">
-                No, we will install our own network in your laundry room.
-              </h3>
-            </div>
-            {/* span 1 ended */}
-            {/*  span 1 started */}
-            <div className="col-span-2 lg:col-span-1 sm:col-span-2">
-              <h1 className="text-lg font-medium text-center uppercase xl:text-2xl sm:text-xl text-tmbl-lght lg:text-left ">
-                CAN RESIDENTS CONTACT TUMBLE DIRECTLY?
-              </h1>
-              <h3 className="text-base text-center text-tmbl-drk lg:text-left">
-                Residents can get help, report problems, and give real-time
-                feedback directly to our team in-app. Residents no longer need
-                to harass Property Management when there’s a laundry issue. A
-                live Smart Laundry tech is always just one button away!
-              </h3>
-            </div>
-            {/* span 1 ended */}
+    <div className="relative bg-white py-16 sm:py-24 lg:py-24">
+      <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+        <p className="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          Why you need Tumble Smart Laundry
+        </p>
+        <p className="mx-auto mt-5 max-w-prose text-xl text-tmbl-drk">
+          Tumble invented Smart Laundry for residents and onsite teams. <br></br>This isn't your grandparents laundry company!
+        </p>
+        <div className="mt-12">
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            {features.map((feature) => (
+              <div key={feature.name} className="pt-6">
+                <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                  <div className="-mt-6">
+                    <div>
+                      <span className="inline-flex items-center justify-center rounded-md bg-tmbl-drk p-3 shadow-lg">
+                        <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
+                      </span>
+                    </div>
+                    <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">{feature.name}</h3>
+                    <p className="mt-5 text-base text-tmbl-drk">{feature.description}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
-    </>
-  );
+    </div>
+  )
 }

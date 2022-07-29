@@ -84,7 +84,7 @@ export default function Waitlistmail() {
             <div className="relative">
               <div className="sm:text-center">
                 <h2 className="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
-                Increase your NOI with Smart Laundry
+                Increase your NOI with Tumble Smart Laundry
                 </h2>
                 <p className="mt-6 mx-auto max-w-2xl text-lg text-white">
                   Get more info here!

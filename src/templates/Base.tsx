@@ -17,21 +17,20 @@ import Script from "next/script"
 // import Tumble from './Tumble';
 import Washgallery from './Washgallery';
 
-//const INTERCOM_APP_ID = 'bb5p5u7t';
+const INTERCOM_APP_ID = 'bb5p5u7t';
 import { AnalyticsBrowser } from '@segment/analytics-next'
 import Waitlistmail from './waitlistmail';
-import Example from './Example';
+import Example from './Faq';
 
 export const analytics = AnalyticsBrowser.load({ writeKey: 'DxVayNrvlQ0oDpCGVGRKFvxWJWK2oCyz' })
 
 const Base = () => (
-  <IntercomProvider appId={'?'} autoBoot>
+  <IntercomProvider appId={INTERCOM_APP_ID} autoBoot>
     <div className="antialiased text-gray-600">
       <IntercomChat />
       <Meta title={AppConfig.title} description={AppConfig.description} />
       <Hero />
       <Header />
-      <Example />
       <Script >
       {`
             !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
@@ -73,6 +72,7 @@ const Base = () => (
                 `}
       </Script>
       <Waitlistmail />
+      <Example />
       <Washgallery />
       {/* <Smartcenter />
       <NMHC />
