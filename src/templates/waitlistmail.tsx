@@ -1,5 +1,5 @@
 import React from 'react';
-// import { analytics } from './Base';
+import { analytics } from './Base';
 
 
 export default function Waitlistmail() {
@@ -8,6 +8,8 @@ export default function Waitlistmail() {
   
   const waitsubmit = async (e: { preventDefault: () => void; }) => {
     e.preventDefault()
+    analytics.track('Learn More', {Email: state3});
+    analytics.identify({Email: state3});
     try {
       const res = await fetch('/api/waitlist', {
         method: 'post',

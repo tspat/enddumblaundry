@@ -268,7 +268,7 @@ export default function Washgallery() {
                     <div className="lg:col-start-2">
                     <div className="hidden lg:block lg:col-span-full lg:pl-20 lg:justify-self-right">
                       <Link href="https://meetings.hubspot.com/dean-wollner">
-                        <button id="button" onClick={() => analytics.trackLink(document.getElementById('button'), 'Sales')} className="rounded-full font-sans font-medium text-white text-xs sm:text-s md:text-base bg-tmbl-drk px-4 py-1 lg:p-3 lg:px-48 lg:mt-4 mt-6" >Meet with us!</button>
+                        <button id="button" onClick={() => analytics.track('Meet with Dean')} className="rounded-full font-sans font-medium text-white text-xs sm:text-s md:text-base bg-tmbl-drk px-4 py-1 lg:p-3 lg:px-48 lg:mt-4 mt-6" >Meet with us!</button>
                        </Link>
                      </div>
                     </div>
@@ -305,9 +305,11 @@ export default function Washgallery() {
                       />
                       </Link>
                       <div className="lg:hidden lg:col-span-full lg:pl-20 lg:justify-self-right">
-                      <Link href="https://meetings.hubspot.com/dean-wollner">
-                        <button id="button" onClick={() => analytics.trackLink(document.getElementById('button'), 'Sales')} className="z-40 rounded-full font-sans font-medium text-white text-s sm:text-m md:text-base bg-tmbl-drk justify-self-center px-10 mx-16 py-1 lg:p-3 lg:mt-4 mt-6" >Meet with us!</button>
+                      <button id="button" onClick={() => analytics.track('Meet with Dean mobile')} className="z-40 rounded-full font-sans font-medium text-white text-s sm:text-m md:text-base bg-tmbl-drk justify-self-center px-10 mx-16 py-1 lg:p-3 lg:mt-4 mt-6" >
+                        <Link href="https://meetings.hubspot.com/dean-wollner">
+                          Meet with us!
                        </Link>
+                       </button>
                 </div>
                     </div>
                   </div>
